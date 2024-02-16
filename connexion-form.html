@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJET - Connexion</title>
+    <h1>ENI - <b>MEMORY</b> - Connexion</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="inscription-form.html">S'inscrire</a></li>
+        <li><a href="connexion-form.html">Se connecter</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="game-page.html">Jouer</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <br />
+    <section>
+      <form id="connexion" action="" method="post">
+        <legend><h3>Connectez-vous :</h3></legend>
+        <label for="emailC"
+          >Adresse email du compte :
+          <input
+            autofocus
+            class="input"
+            type="text"
+            id="emailC"
+            name="emailC"
+            placeholder="dd@dd.fr" /></label
+        ><br />
+        <p class="validationSteps" id="emailCValid"></p>
+        <label for="passwordC"
+          >Mot de passe :
+          <input
+            class="input"
+            type="password"
+            id="passwordC"
+            name="passwordC"
+            placeholder="mot de passe" /></label
+        ><br />
+        <p class="validationSteps" id="passwordCValid"></p>
+        <div class="buttons">
+          <input
+            class="button"
+            type="submit"
+            name="ConnectC"
+            value="Se connecter"
+            id="ConnectC"
+            disabled
+          />
+          <input
+            class="button"
+            type="reset"
+            name="ResetC"
+            value="Annuler"
+            id="ResetC"
+          />
+        </div>
+      </form>
+      <p class="validationSteps" id="howToConnect">Submit your infos</p>
+    </section>
+    <script src="javascript\connexion.js"></script>
+    <script src="javascript\profil.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "image": "/Memory-Game/assets/looney-set/brain.png",
+        "name": "brain"
+    },
+    {
+        "image": "/Memory-Game/assets/looney-set/cow-in-cube.png",
+        "name": "cow-in-cube"
+    },
+    {
+        "image": "/Memory-Game/assets/looney-set/deer-and-eggs.png",
+        "name": "deer-and-eggs"
+    },
+    {
+        "image": "/Memory-Game/assets/looney-set/dolphin.png",
+        "name": "dolphin"
+    },
+    {
+        "image": "/Memory-Game/assets/looney-set/puffer-fish.png",
+        "name": "puffer-fish"
+    },
+    {
+        "image": "/Memory-Game/assets/looney-set/sheep.png",
+        "name": "sheep"
+    },
+    {
+        "image": "/Memory-Game/assets/looney-set/trex-and-crown.png",
+        "name": "trex-and-crown"
+    },
+    {
+        "image": "/Memory-Game/assets/looney-set/trex-and-eggs.png",
+        "name": "trex-and-eggs"
+    },
+    {
+        "image": "/Memory-Game/assets/looney-set/zebra.png",
+        "name": "zebra"
+    }
+]

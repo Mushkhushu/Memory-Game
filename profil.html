@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJET - Profil</title>
+    <h1>ENI - <b>MEMORY</b> - Profil</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="inscription-form.html">S'inscrire</a></li>
+        <li><a href="connexion-form.html">Se connecter</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="game-page.html">Jouer</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <br />
+    <section id="profilNotConnected">
+      <h3>Profil :</h3>
+      <div class="profil" class="image">
+        <img
+          class="avatar"
+          src="assets\question-mark.png"
+          alt="votre avatar"
+          id="imgavatar"
+        />
+      </div>
+      <br />
+      <div>
+        Veuillez vous
+        <a class="profillink" href="connexion-form.html">connecter</a> pour
+        accéder à votre profil.
+      </div>
+      <div>
+        Vous pouvez également vous inscrire
+        <a class="profillink" href="inscription-form.html">ici</a>.
+      </div>
+    </section>
+    <section id="profilConnected">
+      <h3>Profil :</h3>
+      <div class="profil" class="image">
+        <img
+          class="avatar"
+          src="assets\question-mark.png"
+          alt="votre avatar"
+          id="imgavatar"
+        />
+      </div>
+      <div class="profil">
+        <p>Nom d'utilisateur :</p>
+        <p id="affichePseudo"></p>
+        <p>Adresse email :</p>
+        <p id="afficheAdressemel"></p>
+      </div>
+      <br />
+      <form action="" method="post">
+        <div class="profil">
+          <label for="game-select">Choix du Memory :</label><br />
+          <select name="game-select" id="game-select">
+            <option value="">--Please choose an option--</option>
+            <option id="animal" value="data/animal-cards.json">
+              Animal Set
+            </option>
+            <option id="looney" value="data/looney-cards.json">
+              Looney Set
+            </option>
+            <option id="scrabble" value="data/alphabet-scrabble.json">
+              scrabble Set
+            </option>
+          </select>
+        </div>
+        <br />
+        <div class="profil" class="image">
+          <img
+            class="img"
+            src="assets\memory.png"
+            alt="selection choix memory"
+            id="imageAffichee"
+          />
+        </div>
+        <br />
+        <div class="profil">
+          <label for="size-select">Taille du Memory :</label><br />
+          <select name="size-select" id="size-select">
+            <option value="">--Please choose an option--</option>
+            <option value="9">6*3</option>
+            <option value="6">4*3</option>
+            <option value="8">4*4</option>
+          </select>
+        </div>
+        <br />
+        <div class="profil" class="buttons">
+          <input
+            class="button"
+            type="submit"
+            name="ValidateOption"
+            value="Enregistrer option"
+            id="ValidateOption"
+          />
+        </div>
+      </form>
+    </section>
+    <script src="javascript\profil.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "image": "/Memory-Game/assets/alphabet-scrabble/1.png",
+        "name": "1"
+    },
+    {
+        "image": "/Memory-Game/assets/alphabet-scrabble/2.png",
+        "name": "2"
+    },
+    {
+        "image": "/Memory-Game/assets/alphabet-scrabble/3.png",
+        "name": "3"
+    },
+    {
+        "image": "/Memory-Game/assets/alphabet-scrabble/4.png",
+        "name": "4"
+    },
+    {
+        "image": "/Memory-Game/assets/alphabet-scrabble/5.png",
+        "name": "5"
+    },
+    {
+        "image": "/Memory-Game/assets/alphabet-scrabble/6.png",
+        "name": "6"
+    },
+    {
+        "image": "/Memory-Game/assets/alphabet-scrabble/7.png",
+        "name": "7"
+    },
+    {
+        "image": "/Memory-Game/assets/alphabet-scrabble/8.png",
+        "name": "8"
+    },
+    {
+        "image": "/Memory-Game/assets/alphabet-scrabble/9.png",
+        "name": "9"
+    }
+]

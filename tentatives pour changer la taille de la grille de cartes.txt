@@ -1,0 +1,24 @@
+let sizeSelected = parseInt(localStorage.getItem("size"), 10);    
+cards = data.slice(0, sizeSelected);
+        if (cards.length % 2 !== 0) {
+             cards.pop();
+          }
+
+switch (sizeSelected) {
+        case 9:
+            gridContainer.style.gridTemplateColumns = "repeat(6,7vw)";
+            gridContainer.style.gridTemplateRows= "repeat(3,25vh)";
+            break;
+        case 6:
+            gridContainer.style.gridTemplateColumns = "repeat(4,7vw)";
+            gridContainer.style.gridTemplateRows = "repeat(3,25vh)";
+            break
+        case 8:
+            gridContainer.style.gridTemplateColumns = "repeat(4,7vw)";
+            gridContainer.style.gridTemplateRows = "repeat(4,25vh)";
+            break
+        default:
+            gridContainer.style.gridTemplateColumns = "repeat(6,7vw)";
+            gridContainer.style.gridTemplateRows= "repeat(3,25vh)";
+            break;
+    }

@@ -1,0 +1,38 @@
+[
+    {
+        "image": "/Memory-Game/assets/animal-set/dog.png",
+        "name": "dog"
+    },
+    {
+        "image": "/Memory-Game/assets/animal-set/elephant.png",
+        "name": "elephant"
+    },
+    {
+        "image": "/Memory-Game/assets/animal-set/giraffe.png",
+        "name": "giraffe"
+    },
+    {
+        "image": "/Memory-Game/assets/animal-set/owl.png",
+        "name": "owl"
+    },
+    {
+        "image": "/Memory-Game/assets/animal-set/panda.png",
+        "name": "panda"
+    },
+    {
+        "image": "/Memory-Game/assets/animal-set/pig.png",
+        "name": "pig"
+    },
+    {
+        "image": "/Memory-Game/assets/animal-set/rabbit.png",
+        "name": "rabbit"
+    },
+    {
+        "image": "/Memory-Game/assets/animal-set/sealion.png",
+        "name": "sealion"
+    },
+    {
+        "image": "/Memory-Game/assets/animal-set/sloth.png",
+        "name": "sloth"
+    }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJET - Inscription</title>
+    <h1>ENI - <b>MEMORY</b> - Inscription</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="inscription-form.html">S'inscrire</a></li>
+        <li><a href="connexion-form.html">Se connecter</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="game-page.html">Jouer</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <br />
+    <section>
+      <form id="inscription" action="" method="post">
+        <legend>
+          <h3>Inscrivez-vous :</h3>
+        </legend>
+        <label for="usernameI"
+          >Nom d'utilisateur :
+          <input
+            autofocus
+            class="input"
+            type="text"
+            id="usernameI"
+            name="usernameI"
+            placeholder="3 caractères minimum" /></label
+        ><br />
+        <p class="validationSteps" id="usernameIValid">
+          Comporte au moins 3 caractères
+        </p>
+        <label for="emailI"
+          >Entrez votre email :
+          <input
+            class="input"
+            type="text"
+            id="emailI"
+            name="emailI"
+            placeholder="Votre email" /></label
+        ><br />
+        <p class="validationSteps" id="emailIValid">email valide</p>
+        <label for="passwordI"
+          >Mot de passe :
+          <input
+            class="input"
+            type="password"
+            id="passwordI"
+            name="passwordI"
+            placeholder="Votre mot de passe" /></label
+        ><br />
+        <p class="validationSteps" id="passwordIValid">password pattern</p>
+        <p class="validationSteps" id="passwordIStrength">password strength</p>
+        <label for="confPassswordI"
+          >Confirmez le mot de passe :
+          <input
+            class="input"
+            type="password"
+            id="confPassswordI"
+            name="confPassswordI"
+            placeholder="Confirmez le mot de passe" /></label
+        ><br />
+        <p class="validationSteps" id="confPassswordIValid">confirm password</p>
+        <div class="buttons">
+          <input
+            class="button"
+            type="submit"
+            name="SubmitI"
+            value="Création du compte"
+            id="submitI"
+            disabled
+          />
+          <input
+            class="button"
+            type="reset"
+            name="ResetI"
+            value="Annuler"
+            id="ResetI"
+          /><br />
+        </div>
+      </form>
+      <p class="validationSteps" id="howToSubmit">Fill the forms</p>
+    </section>
+    <script src="javascript\inscription.js"></script>
+  </body>
+</html>
